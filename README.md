@@ -39,8 +39,6 @@ The key steps completed in Week 2 are:
 
 ---
 
-## **Folder Structure**
-
 
 ## Week 3 - Feature Engineering
 ...
