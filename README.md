@@ -7,7 +7,7 @@
 
 Dataset: [Download from Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-## Week 2 - Data Cleaning
+## Week 2 - Data Cleaning and Pre Processing
 ...
 
 ## Week 3 - Feature Engineering
