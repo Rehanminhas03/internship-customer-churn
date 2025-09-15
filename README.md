@@ -39,9 +39,53 @@ The key steps completed in Week 2 are:
 
 ---
 
+# Week 3 - Visualization and Feature Engineering
 
-## Week 3 - Feature Engineering
-...
+In Week 3, we dive deeper into the **Telco Customer Churn dataset** to gain meaningful insights and improve our data for modeling.  
+This week involves **cleaning the raw dataset again**, creating **advanced visualizations**, performing **feature engineering**, and applying **dimensionality reduction techniques (PCA)** to prepare the dataset for machine learning in Week 4.
+
+---
+
+## **Objectives**
+The main goals for Week 3 are:
+
+1. **Load and Clean the Raw Dataset**
+   - Handle missing values in numerical and categorical features.
+   - Convert `TotalCharges` to a numeric type.
+   - Encode categorical variables using:
+     - **Label Encoding** for binary categories.
+     - **One-Hot Encoding** for multi-class categories.
+   - Scale numerical features (`tenure`, `MonthlyCharges`, `TotalCharges`) using **StandardScaler**.
+
+2. **Advanced Visualizations**
+   - **Correlation Heatmap** to identify relationships between features and churn.
+   - **Histograms** to compare churn vs. non-churn customers.
+   - **Bar Plots** for churn comparison across demographics (e.g., gender, contract type).
+
+3. **Feature Engineering**
+   - Create new features to improve model predictions:
+     - `EngagementScore` → tenure × TotalCharges
+     - `AvgMonthlyCharges` → TotalCharges ÷ tenure
+     - `TotalServices` → Sum of all subscribed services
+     - `CostPerService` → TotalCharges ÷ TotalServices
+   - Combine and transform existing variables to generate meaningful predictors.
+
+4. **Dimensionality Reduction (PCA)**
+   - Apply **Principal Component Analysis (PCA)** to reduce feature space for visualization and modeling efficiency.
+
+5. **Save Refined Dataset**
+   - Save the cleaned and engineered dataset as:
+     ```
+     Refined_Customer_Churn.csv
+     ```
+   - This dataset will be used in Week 4 for machine learning model building.
+
+---
+
+## **Folder Structure**
+Your Week 3 folder should look like this:
+
+
 
 ## Week 4 - Model Building
 ...
