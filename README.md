@@ -87,5 +87,38 @@ Your Week 3 folder should look like this:
 
 
 
-## Week 4 - Model Building
-...
+## Week 4 - Predictive Modeling and Evaluation 
+
+In Week 4, we build a **machine learning pipeline** starting with the **raw Telco dataset** and ending with a fully trained and optimized churn prediction model.
+
+---
+
+## **Steps Covered**
+1. **Load Raw Dataset**
+2. **Data Cleaning**
+   - Handle missing values
+   - Convert data types
+   - Drop duplicates and irrelevant columns
+3. **Encoding**
+   - Convert categorical variables into numerical values using one-hot encoding
+4. **Feature Scaling**
+   - Standardize numeric columns for fair model training
+5. **Train-Test Split**
+6. **Baseline Models**
+   - Logistic Regression
+   - Decision Tree
+7. **Advanced Models**
+   - Random Forest
+   - Gradient Boosting
+   - XGBoost
+   - LightGBM
+8. **Model Evaluation**
+   - Accuracy, Precision, Recall, F1 Score, ROC-AUC
+9. **Hyperparameter Tuning**
+   - GridSearchCV applied to Random Forest
+10. **Final Model Saving**
+    - `final_churn_model.pkl`
+11. **Visualizations**
+    - Confusion Matrix
+    - ROC Curve
+
